@@ -15,10 +15,11 @@ namespace MOLINES_EDP
         public Form1()
         {
             InitializeComponent();
+            tbPassword.UseSystemPasswordChar = true;
         }
         string[,] userCredentials =
         {
-            { "admin", "admin", "trisha molines" },
+            { "admin", "admin", "Trisha Molines" },
             { "cashier", "password", "sheldon cooper" }
         };
 
@@ -37,8 +38,8 @@ namespace MOLINES_EDP
             }
             else if(tbPassword.Text == "")
             {
-                MessageBox.Show("Please enter username:", "Validation");
-                tbUsername.Focus();
+                MessageBox.Show("Please enter password:", "Validation");
+                tbPassword.Focus();
             }
             else
             {
