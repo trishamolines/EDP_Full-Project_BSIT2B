@@ -144,9 +144,9 @@
             this.lblWelcome.BackColor = System.Drawing.Color.Transparent;
             this.lblWelcome.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.Black;
-            this.lblWelcome.Location = new System.Drawing.Point(12, 9);
+            this.lblWelcome.Location = new System.Drawing.Point(12, 22);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(620, 87);
+            this.lblWelcome.Size = new System.Drawing.Size(620, 74);
             this.lblWelcome.TabIndex = 1;
             this.lblWelcome.Text = " Welcome!";
             this.lblWelcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
