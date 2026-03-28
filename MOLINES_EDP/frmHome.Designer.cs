@@ -65,6 +65,7 @@
             this.btnRegister.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnRegister.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRegister.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegister.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRegister.Location = new System.Drawing.Point(3, 3);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(191, 137);
@@ -143,11 +144,11 @@
             this.lblWelcome.BackColor = System.Drawing.Color.Transparent;
             this.lblWelcome.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.Black;
-            this.lblWelcome.Location = new System.Drawing.Point(78, 31);
+            this.lblWelcome.Location = new System.Drawing.Point(12, 9);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(499, 54);
+            this.lblWelcome.Size = new System.Drawing.Size(620, 87);
             this.lblWelcome.TabIndex = 1;
-            this.lblWelcome.Text = "Welcome!";
+            this.lblWelcome.Text = " Welcome!";
             this.lblWelcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblWelcome.Click += new System.EventHandler(this.label7_Click);
             // 

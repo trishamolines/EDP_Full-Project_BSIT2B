@@ -68,7 +68,7 @@
             // 
             // tbUsername
             // 
-            this.tbUsername.BackColor = System.Drawing.Color.LightYellow;
+            this.tbUsername.BackColor = System.Drawing.Color.Azure;
             this.tbUsername.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F);
             this.tbUsername.Location = new System.Drawing.Point(207, 172);
             this.tbUsername.Name = "tbUsername";
@@ -78,7 +78,7 @@
             // 
             // tbPassword
             // 
-            this.tbPassword.BackColor = System.Drawing.Color.LightYellow;
+            this.tbPassword.BackColor = System.Drawing.Color.Azure;
             this.tbPassword.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F);
             this.tbPassword.Location = new System.Drawing.Point(206, 242);
             this.tbPassword.Name = "tbPassword";
@@ -90,7 +90,7 @@
             this.btnLogin.BackColor = System.Drawing.Color.Azure;
             this.btnLogin.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.Black;
-            this.btnLogin.Location = new System.Drawing.Point(392, 302);
+            this.btnLogin.Location = new System.Drawing.Point(392, 294);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(93, 28);
             this.btnLogin.TabIndex = 5;
