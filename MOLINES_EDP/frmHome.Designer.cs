@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHome));
             this.tblelayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnStoreStatus = new System.Windows.Forms.Button();
@@ -36,7 +37,12 @@
             this.btnUsers = new System.Windows.Forms.Button();
             this.btnTimeClock = new System.Windows.Forms.Button();
             this.lblWelcome = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblUser = new System.Windows.Forms.Label();
+            this.pcboxArrow = new System.Windows.Forms.PictureBox();
             this.tblelayoutPanel.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcboxArrow)).BeginInit();
             this.SuspendLayout();
             // 
             // tblelayoutPanel
@@ -152,13 +158,46 @@
             this.lblWelcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblWelcome.Click += new System.EventHandler(this.label7_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.lblUser);
+            this.panel1.Controls.Add(this.pcboxArrow);
+            this.panel1.Location = new System.Drawing.Point(26, 400);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(255, 38);
+            this.panel1.TabIndex = 2;
+            // 
+            // lblUser
+            // 
+            this.lblUser.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Location = new System.Drawing.Point(47, 4);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(166, 34);
+            this.lblUser.TabIndex = 1;
+            this.lblUser.Text = "Hi, Trisha Molines";
+            this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pcboxArrow
+            // 
+            this.pcboxArrow.ErrorImage = null;
+            this.pcboxArrow.Image = ((System.Drawing.Image)(resources.GetObject("pcboxArrow.Image")));
+            this.pcboxArrow.InitialImage = null;
+            this.pcboxArrow.Location = new System.Drawing.Point(3, 4);
+            this.pcboxArrow.Name = "pcboxArrow";
+            this.pcboxArrow.Size = new System.Drawing.Size(38, 34);
+            this.pcboxArrow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcboxArrow.TabIndex = 0;
+            this.pcboxArrow.TabStop = false;
+            this.pcboxArrow.Click += new System.EventHandler(this.pcboxArrow_Click);
+            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightPink;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(644, 453);
+            this.ClientSize = new System.Drawing.Size(644, 450);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.tblelayoutPanel);
             this.Name = "frmHome";
@@ -166,6 +205,8 @@
             this.Text = "frmHome";
             this.Load += new System.EventHandler(this.frmHome_Load);
             this.tblelayoutPanel.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pcboxArrow)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -180,5 +221,8 @@
         private System.Windows.Forms.Button btnVendors;
         private System.Windows.Forms.Button btnUsers;
         private System.Windows.Forms.Button btnTimeClock;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pcboxArrow;
+        private System.Windows.Forms.Label lblUser;
     }
 }

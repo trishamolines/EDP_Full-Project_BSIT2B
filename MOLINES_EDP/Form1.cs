@@ -51,6 +51,7 @@ namespace MOLINES_EDP
                         {
 
                             frmHome frm = new frmHome();
+                              frm.username = userCredentials[x, 2];
                             MessageBox.Show("Welcome " + userCredentials[x, 2]);
                             this.Hide();
                             frm.Show();

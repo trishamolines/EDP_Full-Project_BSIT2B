@@ -12,6 +12,8 @@ namespace MOLINES_EDP
 {
     public partial class frmHome : Form
     {
+        public string username;
+
         public frmHome()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace MOLINES_EDP
 
         private void frmHome_Load(object sender, EventArgs e)
         {
-
+            lblUser.Text = "Hi, " + username;
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -67,6 +69,11 @@ namespace MOLINES_EDP
         {
             TimeClockForm rf = new TimeClockForm();
             rf.ShowDialog();
+        }
+
+        private void pcboxArrow_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
