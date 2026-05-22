@@ -49,3 +49,24 @@ C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Full-Project_BSIT2B\MOLINES_EDP\bin\De
 C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Full-Project_BSIT2B\MOLINES_EDP\bin\Debug\MySql.Data.xml
 C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_.DCC0CEC8.Up2Date
 C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.frmRegister.resources
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\bin\Debug\MOLINES_EDP.exe.config
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\bin\Debug\MOLINES_EDP.exe
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\bin\Debug\MOLINES_EDP.pdb
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.RegisterForm.resources
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.StoreStatusForm.resources
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.PricebookForm.resources
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.VendorsForm.resources
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.TimeClockForm.resources
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.frmHome.resources
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.Properties.Resources.resources
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_.DCC0CEC8.Up2Date
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.exe
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.pdb
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.frmLogin.resources
+C:\Users\Administrator\Documents\EDP_Project\EDP_Full-Project_BSIT2B\MOLINES_EDP\obj\Debug\MOLINES_EDP.frmUsers.resources

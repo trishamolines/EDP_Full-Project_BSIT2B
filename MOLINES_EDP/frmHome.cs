@@ -14,14 +14,15 @@ namespace MOLINES_EDP
     {
         public string username;
 
-        public frmHome()
+        public frmHome(string name)
         {
             InitializeComponent();
+            username = name; 
         }
 
         private void frmHome_Load(object sender, EventArgs e)
         {
-            lblUser.Text = "Hi, " + username;
+            lblUser.Text = "Hi!, " + username;
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -61,7 +62,7 @@ namespace MOLINES_EDP
 
         private void btnUsers_Click(object sender, EventArgs e)
         {
-            UsersForm rf = new UsersForm();
+            frmUsers rf = new frmUsers();
             rf.ShowDialog();
         }
 
@@ -74,6 +75,11 @@ namespace MOLINES_EDP
         private void pcboxArrow_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmHome_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
         }
     }
 }

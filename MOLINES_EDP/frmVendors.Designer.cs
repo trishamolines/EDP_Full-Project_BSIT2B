@@ -1,6 +1,6 @@
 ﻿namespace MOLINES_EDP
 {
-    partial class RegisterForm
+    partial class VendorsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,37 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.Vendors = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // Vendors
             // 
-            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(610, 53);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Registration Form";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Vendors.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Vendors.ForeColor = System.Drawing.Color.Black;
+            this.Vendors.Location = new System.Drawing.Point(12, 9);
+            this.Vendors.Name = "Vendors";
+            this.Vendors.Size = new System.Drawing.Size(610, 53);
+            this.Vendors.TabIndex = 3;
+            this.Vendors.Text = "Vendors Form";
+            this.Vendors.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // RegisterForm
+            // VendorsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LavenderBlush;
+            this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(634, 416);
-            this.Controls.Add(this.label1);
-            this.ForeColor = System.Drawing.Color.Black;
-            this.Name = "RegisterForm";
+            this.Controls.Add(this.Vendors);
+            this.Name = "VendorsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmRegister";
+            this.Text = "Vendors page";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Vendors;
     }
 }

@@ -202,7 +202,7 @@
             this.Controls.Add(this.tblelayoutPanel);
             this.Name = "frmHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmHome";
+            this.Text = "Homepage";
             this.Load += new System.EventHandler(this.frmHome_Load);
             this.tblelayoutPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

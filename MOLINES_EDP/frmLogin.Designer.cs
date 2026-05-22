@@ -1,6 +1,6 @@
 ﻿namespace MOLINES_EDP
 {
-    partial class frmRegister
+    partial class frmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -98,7 +98,7 @@
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.button1_Click);
             // 
-            // frmRegister
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -110,9 +110,9 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblPointSystem);
-            this.Name = "frmRegister";
+            this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Register Form";
+            this.Text = "Log in page";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

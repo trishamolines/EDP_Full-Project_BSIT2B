@@ -1,6 +1,6 @@
 ﻿namespace MOLINES_EDP
 {
-    partial class StoreStatusForm
+    partial class RegisterForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,36 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.StoreStatus = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // StoreStatus
+            // label1
             // 
-            this.StoreStatus.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold);
-            this.StoreStatus.ForeColor = System.Drawing.Color.Black;
-            this.StoreStatus.Location = new System.Drawing.Point(12, 9);
-            this.StoreStatus.Name = "StoreStatus";
-            this.StoreStatus.Size = new System.Drawing.Size(610, 60);
-            this.StoreStatus.TabIndex = 1;
-            this.StoreStatus.Text = "Store Status Form";
-            this.StoreStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(610, 53);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Registration Form";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // StoreStatusForm
+            // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Thistle;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(634, 416);
-            this.Controls.Add(this.StoreStatus);
-            this.Name = "StoreStatusForm";
+            this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.Black;
+            this.Name = "RegisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmStoreStatus";
+            this.Text = "Registration page";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label StoreStatus;
+        private System.Windows.Forms.Label label1;
     }
 }

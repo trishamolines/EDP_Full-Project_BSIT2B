@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace MOLINES_EDP
 {
-    public partial class frmRegister : Form
+    public partial class frmLogin : Form
     {
-        public frmRegister()
+        public frmLogin()
         {
             InitializeComponent();
             tbPassword.UseSystemPasswordChar = true;
@@ -72,7 +72,7 @@ namespace MOLINES_EDP
                     new MySqlParameter("@pword",tbPassword.Text));
                 if (dt.Rows.Count == 1)
                 {
-                    frmHome frm = new frmHome();
+                    frmHome frm = new frmHome("Trisha Molines");
                     this.Hide();
                     frm.Show();
                 }
@@ -87,11 +87,11 @@ namespace MOLINES_EDP
         {
             if (db.TestConnection() == true)
             {
-                MessageBox.Show("Connected Successfully");
+                MessageBox.Show("Connected to Database");
             }
             else
             {
-                MessageBox.Show("ngiii");
+                MessageBox.Show("Database Connection Failed!");
             }
         }
     }

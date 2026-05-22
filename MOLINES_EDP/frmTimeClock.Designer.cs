@@ -1,6 +1,6 @@
 ﻿namespace MOLINES_EDP
 {
-    partial class PricebookForm
+    partial class TimeClockForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Pricebook = new System.Windows.Forms.Label();
+            this.TimeClock = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Pricebook
+            // TimeClock
             // 
-            this.Pricebook.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold);
-            this.Pricebook.ForeColor = System.Drawing.Color.Black;
-            this.Pricebook.Location = new System.Drawing.Point(12, 9);
-            this.Pricebook.Name = "Pricebook";
-            this.Pricebook.Size = new System.Drawing.Size(610, 59);
-            this.Pricebook.TabIndex = 2;
-            this.Pricebook.Text = "Pricebook Form";
-            this.Pricebook.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TimeClock.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimeClock.ForeColor = System.Drawing.Color.Black;
+            this.TimeClock.Location = new System.Drawing.Point(12, 9);
+            this.TimeClock.Name = "TimeClock";
+            this.TimeClock.Size = new System.Drawing.Size(610, 53);
+            this.TimeClock.TabIndex = 4;
+            this.TimeClock.Text = "Time Clock Form";
+            this.TimeClock.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // PricebookForm
+            // TimeClockForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Lavender;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(634, 416);
-            this.Controls.Add(this.Pricebook);
-            this.Name = "PricebookForm";
+            this.Controls.Add(this.TimeClock);
+            this.Name = "TimeClockForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmPricebook";
+            this.Text = "Time Clock page";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label Pricebook;
+        private System.Windows.Forms.Label TimeClock;
     }
 }

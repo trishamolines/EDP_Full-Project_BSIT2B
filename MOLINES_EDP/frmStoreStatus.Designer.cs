@@ -1,6 +1,6 @@
 ﻿namespace MOLINES_EDP
 {
-    partial class TimeClockForm
+    partial class StoreStatusForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TimeClock = new System.Windows.Forms.Label();
+            this.StoreStatus = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // TimeClock
+            // StoreStatus
             // 
-            this.TimeClock.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeClock.ForeColor = System.Drawing.Color.Black;
-            this.TimeClock.Location = new System.Drawing.Point(12, 9);
-            this.TimeClock.Name = "TimeClock";
-            this.TimeClock.Size = new System.Drawing.Size(610, 53);
-            this.TimeClock.TabIndex = 4;
-            this.TimeClock.Text = "Time Clock Form";
-            this.TimeClock.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.StoreStatus.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold);
+            this.StoreStatus.ForeColor = System.Drawing.Color.Black;
+            this.StoreStatus.Location = new System.Drawing.Point(12, 9);
+            this.StoreStatus.Name = "StoreStatus";
+            this.StoreStatus.Size = new System.Drawing.Size(610, 60);
+            this.StoreStatus.TabIndex = 1;
+            this.StoreStatus.Text = "Store Status Form";
+            this.StoreStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // TimeClockForm
+            // StoreStatusForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MistyRose;
+            this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(634, 416);
-            this.Controls.Add(this.TimeClock);
-            this.Name = "TimeClockForm";
+            this.Controls.Add(this.StoreStatus);
+            this.Name = "StoreStatusForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmTimeClock";
+            this.Text = "Store Status page";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label TimeClock;
+        private System.Windows.Forms.Label StoreStatus;
     }
 }

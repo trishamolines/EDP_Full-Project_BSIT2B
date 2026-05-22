@@ -11,7 +11,7 @@ namespace MOLINES_EDP
 {
     internal class MyDatabase
     {
-        string connectionString = "Server=localhost;Port=3306;Database='molines_dp';Uid='root';Pwd=''";
+        string connectionString = "Server=localhost;Port=3306;Database='molines_db';Uid='root';Pwd=''; Allow User Variables=True;AllowBatch=True";
         public bool TestConnection()
         {
             
